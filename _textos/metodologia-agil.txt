@@ -1,0 +1,26 @@
+O que são Metodologias Ágeis?
+Metodologias ágeis existem há anos, desde a década de 80, mas algumas informações passam por distorções, fato que dificultou no início a utilização das metodologias. Por conseguinte, desenvolvedores passaram a entender a metodologia ágil como algo que tudo se pode, ou seja, podemos desenvolver sem documentação, sem padrão e sem cuidado. Isto não é verdade, as metodologias ágeis podem trazer sucesso ao projeto, e são utilizadas inclusive na indústria. 
+
+Seguindo Pressman, pode ser definida ainda como:
+
+“A engenharia de software ágil combina filosofia com um conjunto de princípios de desenvolvimento. A filosofia defende a satisfação do cliente e a entrega de incremental prévio; equipes de projetos pequenas e altamente motivadas; métodos informais; artefatos de engenharia de software mínimos e, acima de tudo, simplicidade no desenvolvimento geral. Os princípios de desenvolvimento priorizam a entrega mais que a análise e projeto (embora essas atividades não sejam desencorajadas); também priorizam a comunicação ativa e contínua entre desenvolvedores e clientes”. (Pressman, 2011)
+
+Com o foco em:
+-Os indivíduos e as interações são mais importantes do que os processos e as ferramentas;
+-O software funcionando é mais importante do que uma documentação completa;
+-A colaboração com e dos clientes acima de apenas negociações de contratos e;
+-Respostas a mudanças acima de seguir um plano.
+
+Como podemos definir o que é ser ágil?
+
+Segundo Ivar Jacobson “Atualmente, agilidade tornou-se a palavra da moda quando se descreve um moderno processo de software. Todo mundo é ágil. Uma equipe ágil é aquela rápida e capaz de responder apropriadamente a mudanças. Mudanças têm muito a ver com desenvolvimento de software. Mudanças no software que está sendo criado, mudanças nos membros da equipe, mudanças devido a novas tecnologias, mudanças de todos os tipos que poderão ter um impacto no produto que está em construção ou no projeto que cria o produto. Suporte para mudanças deve ser incorporado em tudo o que fazemos em software, algo que abraçamos porque é o coração e a alma do software. Uma equipe ágil reconhece que o software é desenvolvido por indivíduos trabalhando em equipes e que as habilidades dessas pessoas, suas capacidades em colaborar, estão no cerne do sucesso do projeto.”
+
+Para se obter o desenvolvimento ágil são necessários as seguintes práticas:
+
+-Utilização de TDD: o TDD é a técnica que permite fazer testes contínuos e não apenas na conclusão do sistema, melhorando a qualidade técnica do produto;
+-Planejamento Incremental: ao invés de planejar o software como um topo, podemos planejar de forma sistêmica, ou seja, definir o todo, mas planejar em etapas, realizando um planejamento por incremento. Os requisitos do incremento podem ser registrados em cartões, que algumas metodologias denominam de histórias do usuário, aqui determinamos a prioridade que o cliente define e também o tempo que os desenvolvedores definem como necessário para o desenvolvimento;
+-Incrementos desenvolvidos em tempo reduzido: releases pequenos, entregando funcionalidades em meses ou semanas, ao invés de anos;
+-Utilização de refatoração: melhorando o código e tornando-o mais fácil de manter constantemente;
+-Integração continua: quando o incremento está pronto, ele é integrado ao sistema como um todo, ou seja, isto é feito diariamente.
+
+

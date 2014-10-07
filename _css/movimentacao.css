@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+table#tabela-php{
+	border-spacing: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:  center;
+}
+
+table#tabela-php td.ln{
+	border-bottom: 1px solid #BEBEBE;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle
+}
+
+table#tabela-php td.ac{
+	border-bottom: 1px solid #BEBEBE;
+	word-spacing: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.direita{
+	border-bottom: 1px solid #BEBEBE;
+}
+
+form#dados-exibir {
+	width: 550px;
+	margin: auto;
+}
+
+form#dados-exibir div#dados{
+	width: 550px;
+	margin: -20px auto 0px auto;
+}
+
+form#dados-exibir h3{
+	font-size: 13pt;
+	padding-left: 10px;
+	margin-bottom: -35px;
+}
+
+form#dados-exibir p{
+	text-align: justify;
+	text-indent: 80px;	
+}
+
+form#fVoltar {
+	margin-left: 90px;
+}
+

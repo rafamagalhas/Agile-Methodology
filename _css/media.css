@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div#tv-plasma {
+	width: 980px;
+	height: 580px;
+	margin: auto;
+	background: url("../_imagens/tv-plasma.png") no-repeat;
+} 
+
+video#filme {
+	display: block;
+	position: relative;
+	left: 75px;
+	top: 55px;
+	width: 760px;
+}

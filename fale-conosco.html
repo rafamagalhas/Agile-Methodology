@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+	<meta charset="UTF-8" />
+	<title>Metodologias Ágeis</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="_css/form.css" />
+</head>
+<script language="javascript" src="_javascript/funcoes.js"> </script>
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+			<hgroup> 	
+				<h1>Metodológias Ágies</h1>
+				<h2>Uma nova forma de desenvolver software</h2>
+			</hgroup>
+			<img id="icone" src="_imagens/contato.png" />
+			<nav id="menu">
+			<h1>Menu Pincipal</h1>
+			<ul type="circle">
+				 <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="index.html" >Home</a></li>
+				 <li onmouseover="mudaFoto('_imagens/scrum.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="scrum.html">Scrum</a></li>
+				 <li onmouseover="mudaFoto('_imagens/xp.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="xp.html">XP</a></li>
+				 <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+				 <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+			</ul>
+			</nav>
+			</header>
+			<section id="corpo-full">
+				<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+				<hgroup>
+				<h3>Tecnologia > &nbsp; Metodologias</h3>
+				<h1>Deixe seu Recado</h1>
+				<h2>Por MPB<h2>
+				<h3 class="direita"> Atualizado em Setembro/2014</h3>
+				</hgroup>
+				</header>
+
+				<form method="post" id="fContato" action="inserir.php">
+					<fieldset id="dados" ><legend>Identificação do Contato</legend>
+						<p><label for="cNome">Nome:</label>
+						<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/>	
+						</p>
+						<p><label for="cCnpj">CNPJ:</label> 
+						<input type="text" name="tCnpj" id="cCnpj" size="14" maxlength="14" placeholder="Cnpj" /> 
+						</p>
+						<p><label for="cMail">Email:</label>
+						<input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="Email"/>
+						</p>
+						<p><label for="cFone">Fone:</label>
+						<input type="text" name="tFone" id="cFone" size="14" maxlength="14" placeholder="(xx)00000-0000"/>
+						</p>
+						<p><label for="cMsg">Mensagem:</label>
+						<textarea name="tMsg" id="cMsg" cols="50" rows="5" placeholder="Deixa aqui sua mensagem"></textarea>
+						</p>
+						<p>
+						<input type="checkbox" name="tPed" id="cPed" checked/>
+						<label for="cPed">Gostaria de receber atualizações?</label>
+						</p>
+					</fieldset>
+					<input type="submit" value="Enviar" name="tEnviar" id="cEnviar" />
+					<input type="submit" value="Listar" name="tListar" id="cListar" onclick="listForm()"/>
+				</form>
+			</section>
+			<footer id="rodape"> 
+			<p>
+			Copyright 2014 - by MPB <br/> 
+			<a href="http://www.fatecfranca.edu.br/" target="_blank">Fatec Franca</a>
+			</p>
+			</footer>
+		</div>
+	</body>
+</html>
